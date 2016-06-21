@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .single{
+
+            height:30px;
+
+            font-size:18px;
+
+            border:1px solid red;
+
+            color:blue;
+          display:inline-block;
+
+        }
+
+        .radio-logo{
+
+            position:absolute;
+
+            display:none;
+
+        }
+
+           .radio-logo+label{
+
+               position:relative;
+
+               padding-left:30px;
+
+               vertical-align:middle;
+
+           }
+
+        .radio-logo+label::before{
+
+            position:absolute;
+
+            top:0;
+
+            left:0;
+
+            width:20px;
+
+            height:20px;
+
+            content:url(定制箱---circle.png);
+
+            border:1px solid red;
+
+        }
+
+        .radio-logo:checked+label::before{
+            background:url(定制箱---circleblue.png);
+
+        }
+    </style>
+</head>
+<body>
+<div class="wrap">
+
+    <h4>radio</h4>
+    <div class="single">
+
+        <input type="radio" class="radio-logo" id=r1 name="radio" value="option1"/>
+
+        <label for="r1"> the one </label>
+
+    </div>
+
+
+    <div class="single">
+
+        <input type="radio" class="radio-logo" id=r2 name="radio" value="option2"/>
+
+        <label for="r2"> the two </label>
+
+    </div>
+
+</div>
+</body>
+</html>

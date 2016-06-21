@@ -1,0 +1,55 @@
+
+        .opt {
+            height: 30px;
+            line-height: 24px;
+        }
+        .magic-radio {
+            position: absolute;
+            display: none;
+        }
+        .magic-radio + label {
+            position: relative;
+            display: block;
+            padding-left: 30px;
+            cursor: pointer;
+            vertical-align: middle;
+        }
+       /* .magic-radio:checked + label::before {
+            border: 1px solid #3e97eb;
+        }
+        .magic-radio:checked + label::before, .magic-checkbox:checked + label::before {
+            animation-name: none;
+        }*/
+       .magic-radio + label::before {
+            border-radius: 50%;
+        }
+        .magic-radio + label::before, .magic-checkbox + label::before {
+            position: absolute;
+            top: 0;
+            left: 0;
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            content: '';
+            border: 1px solid #c0c0c0;
+        }
+        .magic-radio:checked + label::after, .magic-checkbox:checked + label::after 
+        {
+            display: block;
+         }
+        .magic-radio + label::after
+        {
+            top: 7px;
+            left: 7px;
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: #3e97eb;
+}
+         .magic-radio + label::after, .magic-checkbox + label::after 
+         {
+             position: absolute;
+             display: none;
+             content: '';
+}
+    

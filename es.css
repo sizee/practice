@@ -1,0 +1,19 @@
+/** sprite: mysprite; sprite-image:url('../img/mysprite.png);sprite-layout;vertical*/
+#web{
+    width:125px;
+    height:74px;
+    background-repeat:no-repeat ;
+    background-image:url(捕获.PNG)/**sprite-ref:mysprite;*/
+}
+#logo{
+    width:131px;
+    height:104px;
+    background-repeat:no-repeat ;
+    background-image: url(捕获2.PNG);/** sprite-ref:mysprite;sprite-alignment:right */
+}
+#main-box{
+    width:106px;
+    height:83px;
+    background-repeat:no-repeat ;
+    background-image: url(捕获3.PNG);/**sprite-ref: mysprite; sprite-alignment:repeat; sprite-margin-top:5px*/
+}
