@@ -3,30 +3,28 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>无标题文档</title>
-    <style type="text/css">
-        <!--
-        .box{width:200px; height:100px; border:5px solid blue; overflow:hidden;}
-        .list{width:200px; height:100px; line-height:100px; background:#ddd; font-size:80px; text-align:center;}
-        .link{width:200px; padding-top:10px; text-align:right;}
-        .click{display:inline-block; width:20px; height:20px; line-height:20px; border:1px solid #ccc; background:#f7f7f7; color:#333; font-size:12px; font-weight:bold; text-align:center; text-decoration:none;}
-        .click:hover{background:#eee; color:#345;}
-
-        -->
-    </style>
+     <link href="qwe.css" type="text/css" rel="stylesheet"/>
 </head>
-
 <body>
-<div class="box">
-    <div class="list" id="one">1</div>
-    <div class="list" id="two">2</div>
-    <div class="list" id="three">3</div>
-    <div class="list" id="four">4</div>
-</div>
-<div class="link">
-    <a class="click" href="#one">1</a>
-    <a class="click" href="#two">2</a>
-    <a class="click" href="#three">3</a>
-    <a class="click" href="#four">4</a>
-</div>
+<div class="col">
+    <h4>Radio</h4>
+    <div class="opt">
+        <input class="magic-radio" name="radio" id="r1" value="option1" type="radio">
+        <label for="r1">Normal</label>
+    </div>
+    <div class="opt">
+        <input class="magic-radio" name="radio" id="r2" value="option2" checked="" type="radio">
+        <label for="r2">Checked</label>
+    </div>
+    <div class="opt">
+        <input class="magic-radio" name="radio" id="r3" value="option3" disabled="" type="radio">
+        <label for="r3" style="color:#ccc">禁用</label>
+    </div>
+    <div class="opt">
+        <input class="magic-radio" id="r4" value="option4" checked="" disabled="" type="radio">
+        <label for="r4" style="color:#ccc">Checked &amp;&amp; Disabled</label>
+    </div>
+</div></div>
 </body>
 </html>
+
