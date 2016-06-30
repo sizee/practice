@@ -1,50 +1,19 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+
+<html>
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>å…¼å®¹IE6/IE7/IE8/ç«ç‹---ä¸‹æ‹‰èœå•selectæ ·å¼è®¾ç½®</title>
-    <style type="text/css">
-        body {background-color:#6C6;}
-        .select_border{
-            width:59px;
-            height:29px;
-            *background:#fff;
-            background:#fff;
-            *border:1px solid #09f;
-            *padding:4px;
-            *height:20px;
+    <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+    <title>ÎŞ±êÌâÎÄµµ</title>
+    <script>
+        function hello(){
+           document.write("hello the wrold");
         }
-        .container{
-            *border:0;
-            *position:relative;
-            *height:18px;
-            *overflow:hidden;
-        }
-        .select{
-            border:1px solid #09f;
-            padding:4px 3px;
-            font-size:12px;
-            height:30px;
-            width:60px;
-            *width:52px;
-            margin:-1px;
-        }
-        .select_border,.container {*width:50px;}
-    </style>
+        //ÖØ¸´Ö´ĞĞÄ³¸ö·½·¨
+        var t1 = window.setInterval(hello,1000);
+        var t2 = window.setInterval("hello()",3000);
+        //È¥µô¶¨Ê±Æ÷µÄ·½·¨
+        window.clearInterval(t2);
+    </script>
 </head>
-<body>
-<p>å®½é«˜ï¼š93px-28px</p>
-<div class="select_border">
-    <div class="container">
-        <select name="" class="select">
-            <option>åŒ—äº¬</option>
-            <option>å¤©æ´¥</option>
-            <option>ä¸Šæµ·</option>
-            <option>é‡åº†</option>
-        </select>
-    </div>
-</div>
-</body>
-</html>
+<body >
 </body>
 </html>
