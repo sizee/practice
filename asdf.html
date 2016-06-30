@@ -1,85 +1,50 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-    <style>
-        .single{
-
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>兼容IE6/IE7/IE8/火狐---下拉菜单select样式设置</title>
+    <style type="text/css">
+        body {background-color:#6C6;}
+        .select_border{
+            width:59px;
+            height:29px;
+            *background:#fff;
+            background:#fff;
+            *border:1px solid #09f;
+            *padding:4px;
+            *height:20px;
+        }
+        .container{
+            *border:0;
+            *position:relative;
+            *height:18px;
+            *overflow:hidden;
+        }
+        .select{
+            border:1px solid #09f;
+            padding:4px 3px;
+            font-size:12px;
             height:30px;
-
-            font-size:18px;
-
-            border:1px solid red;
-
-            color:blue;
-          display:inline-block;
-
+            width:60px;
+            *width:52px;
+            margin:-1px;
         }
-
-        .radio-logo{
-
-            position:absolute;
-
-            display:none;
-
-        }
-
-           .radio-logo+label{
-
-               position:relative;
-
-               padding-left:30px;
-
-               vertical-align:middle;
-
-           }
-
-        .radio-logo+label::before{
-
-            position:absolute;
-
-            top:0;
-
-            left:0;
-
-            width:20px;
-
-            height:20px;
-
-            content:url(定制箱---circle.png);
-
-            border:1px solid red;
-
-        }
-
-        .radio-logo:checked+label::before{
-            background:url(定制箱---circleblue.png);
-
-        }
+        .select_border,.container {*width:50px;}
     </style>
 </head>
 <body>
-<div class="wrap">
-
-    <h4>radio</h4>
-    <div class="single">
-
-        <input type="radio" class="radio-logo" id=r1 name="radio" value="option1"/>
-
-        <label for="r1"> the one </label>
-
+<p>宽高：93px-28px</p>
+<div class="select_border">
+    <div class="container">
+        <select name="" class="select">
+            <option>北京</option>
+            <option>天津</option>
+            <option>上海</option>
+            <option>重庆</option>
+        </select>
     </div>
-
-
-    <div class="single">
-
-        <input type="radio" class="radio-logo" id=r2 name="radio" value="option2"/>
-
-        <label for="r2"> the two </label>
-
-    </div>
-
 </div>
+</body>
+</html>
 </body>
 </html>
