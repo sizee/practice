@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f3e1c91f-6b98-4816-8a33-0d98e8ea33fe" name="Default" comment="" />
+    <list default="true" id="f3e1c91f-6b98-4816-8a33-0d98e8ea33fe" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="practices.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -81,10 +83,10 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="985" />
-    <option name="y" value="28" />
-    <option name="width" value="837" />
-    <option name="height" value="920" />
+    <option name="x" value="437" />
+    <option name="y" value="85" />
+    <option name="width" value="1358" />
+    <option name="height" value="1027" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -214,6 +216,8 @@
       <workItem from="1466322832370" duration="15478000" />
       <workItem from="1467188261944" duration="688000" />
       <workItem from="1467340633423" duration="190000" />
+      <workItem from="1467434135197" duration="32000" />
+      <workItem from="1467454841510" duration="607000" />
     </task>
     <task id="LOCAL-00001" summary="练习1响应式布局">
       <created>1465104861286</created>
@@ -254,10 +258,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73453000" />
+    <option name="totallyTimeSpent" value="74092000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="985" y="28" width="837" height="920" extended-state="0" />
+    <frame x="437" y="85" width="1358" height="1027" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4483937" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
